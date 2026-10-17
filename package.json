@@ -1,0 +1,27 @@
+{
+  "name": "@qmoosa/lending-protocol",
+  "version": "1.0.0",
+  "description": "Decentralized Lending & Borrowing Protocol — Interface specifications, interest rate models, and invariant gates",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/lending-protocol.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "lending",
+    "defi",
+    "protocol",
+    "solidity",
+    "reality-gates"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
